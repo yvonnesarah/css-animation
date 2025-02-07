@@ -36,7 +36,6 @@ Application can be viewed here:
 ## 🖼 Screenshot
 Below is a preview of Cats Animation:
 
-![Screenshot](cats-animation.png "Cats Animation")
 
 ## 👥 Credit
 N/A
