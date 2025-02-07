@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta information about the webpage -->
+  <meta charset="UTF-8"> <!-- Specifies character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsiveness on different devices -->
+  <title>Cats Website</title> <!-- Title displayed in the browser tab -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styling -->
+</head>
+
+<body>
+
+  <!-- Header section with navigation menu -->
+  <header>
+    <nav>
+      <ul>
+        <!-- Navigation links for different sections of the page -->
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home section with a welcome message -->
+  <section id="home" class="section">
+    <h1 class="title">Welcome to the Cats Website!</h1> <!-- Main heading for home section -->
+    <p class="description">All about adorable cats!</p> <!-- Short description of the website -->
+  </section>
+
+  <!-- About Us section providing more information about the website -->
+  <section id="about" class="section">
+    <h1 class="title">About Us</h1> <!-- Main heading for about section -->
+    <p class="description">We love cats and share the best content about them.</p> <!-- Brief description about the website's purpose -->
+  </section>
+
+  <!-- Featured Cats section with cards displaying different cats -->
+  <section id="featured" class="section">
+    <h1 class="title">Featured Cats</h1> <!-- Main heading for featured cats section -->
+    <div class="cat-cards">
+      <!-- Each cat card displays an image and title -->
+      <div class="cat-card">
+        <img src="cat.jpg" alt="Cat 1" width="200" height="200"> <!-- Image of the first cat -->
+        <p class="card-title">Fluffy</p> <!-- Name of the first cat -->
+      </div>
+      <div class="cat-card">
+        <img src="cat2.jpg" alt="Cat 2" width="200" height="200"> <!-- Image of the second cat -->
+        <p class="card-title">Whiskers</p> <!-- Name of the second cat -->
+      </div>
+      <div class="cat-card">
+        <img src="cat3.jpg" alt="Cat 3" width="200" height="200"> <!-- Image of the third cat -->
+        <p class="card-title">Mittens</p> <!-- Name of the third cat -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us section with a simple form -->
+  <section id="contact" class="section">
+    <h1 class="title">Contact Us</h1> <!-- Main heading for contact section -->
+    <form>
+      <!-- Form to collect user's name -->
+      <label for="name">Name:</label> <!-- Label for name input field -->
+      <input type="text" id="name" name="name" placeholder="Your name"> <!-- Text input for user's name -->
+      <button type="submit">Submit</button> <!-- Submit button for the form -->
+    </form>
+  </section>
+
+  <!-- Footer section with copyright information -->
+  <footer>
+    <p>&copy; 2025 Cats Website</p> <!-- Copyright notice -->
+  </footer>
+
+</body>
+
+</html>

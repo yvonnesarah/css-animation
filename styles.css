@@ -1,0 +1,108 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif; /* Sets the font family to Arial with a fallback to sans-serif */
+  margin: 0; /* Removes default browser margin */
+  padding: 0; /* Removes default browser padding */
+  background-color: #f5f5f5; /* Light grey background color */
+  text-align: center; /* Centers text by default for all elements */
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: none; /* Removes default list styling (bullets) */
+  padding: 0; /* Removes padding from the list */
+  background: #333; /* Dark background for the navigation bar */
+  overflow: hidden; /* Prevents content from overflowing */
+  display: flex; /* Uses flexbox to align navigation items */
+  justify-content: center; /* Centers navigation items horizontally */
+}
+
+nav ul li {
+  padding: 14px 20px; /* Adds padding around navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Sets text color to white */
+  font-size: 18px; /* Sets font size */
+  transition: color 0.3s; /* Smooth transition effect for color change */
+}
+
+nav ul li a:hover {
+  color: #ff9800; /* Changes text color to orange on hover */
+}
+
+/* Section styling */
+.section {
+  padding: 50px 20px; /* Adds padding inside each section */
+}
+
+.title {
+  font-size: 32px; /* Sets font size for section titles */
+  animation: fadeIn 2s ease-in-out; /* Applies fade-in animation to titles */
+}
+
+.description {
+  font-size: 20px; /* Sets font size for section descriptions */
+  color: #666; /* Sets text color to a medium grey */
+}
+
+/* Featured cat cards */
+.cat-cards {
+  display: flex; /* Uses flexbox for layout */
+  justify-content: center; /* Centers cat cards horizontally */
+  gap: 20px; /* Adds space between cat cards */
+  flex-wrap: wrap; /* Allows cards to wrap to the next line on smaller screens */
+}
+
+.cat-card {
+  background: white; /* Sets card background color to white */
+  padding: 15px; /* Adds padding inside the card */
+  border-radius: 10px; /* Rounds the corners of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a soft shadow effect */
+  transition: transform 0.3s; /* Smooth transition effect for scaling */
+  animation: slideIn 1.5s ease-in-out; /* Applies slide-in animation */
+}
+
+.cat-card:hover {
+  transform: scale(1.1); /* Slightly enlarges the card on hover */
+}
+
+/* Button animation */
+button {
+  background: #ff9800; /* Orange background color */
+  color: white; /* White text color */
+  border: none; /* Removes default button border */
+  padding: 10px 20px; /* Adds padding inside the button */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background 0.3s, transform 0.2s; /* Smooth transition for background and scaling */
+}
+
+button:hover {
+  background: #e68900; /* Darker orange background on hover */
+  transform: scale(1.1); /* Enlarges the button slightly on hover */
+}
+
+/* Animations */
+
+/* Fade-in animation: Makes elements gradually appear */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Starts with an invisible element */
+  }
+  to {
+    opacity: 1; /* Ends with full visibility */
+  }
+}
+
+/* Slide-in animation: Moves elements upward while fading in */
+@keyframes slideIn {
+  from {
+    transform: translateY(50px); /* Starts slightly lower */
+    opacity: 0; /* Starts as invisible */
+  }
+  to {
+    transform: translateY(0); /* Ends in its final position */
+    opacity: 1; /* Ends fully visible */
+  }
+}
