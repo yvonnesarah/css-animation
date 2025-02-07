@@ -1,16 +1,16 @@
 # css-animation
 
 ## 📌 Description
-The Cats Website is a basic HTML, CSS-based static website that showcases adorable cats. It includes a navigation bar, animated sections, interactive cat cards, and a simple contact form.
+The Cats Website is a basic webpage that provides information about cats and showcases featured feline friends through interactive cards. It's designed with HTML, CSS, and animations to create an engaging user experience.
 
 ## 🛠 Prerequisites
 N/A
 
 ## 📋 Criteria
 * Responsive design for different screen sizes
-* Animated elements using CSS animations
-* Simple and clean user interface
-* Interactive hover effects for better user experience
+* Smooth animations for better user experience
+* Organised and readable HTML & CSS
+* Easy-to-navigate sections: Home, About Cats, and Featured Cats
 
 ## 💻 Technologies Used
 The application is built with the following technologies:
@@ -23,8 +23,9 @@ The application is built with the following technologies:
 No installation is required to use the app. It is hosted online and can be accessed via a web browser.
 
 ## 📚 Usage
-1. Explore different sections using the navigation menu
-2. Hover over the featured cats to see animation effects
+1. Navigation: Click the menu links (Home, About, Featured) to explore the site.
+2. Hover Effects: Hover over cat cards to see interactive scaling.
+3. Animations: Titles and cards animate into view for a smooth experience.
 
 ## 🔗 Live Demo & Repository
 Application can be viewed here: 
